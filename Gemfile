@@ -16,10 +16,11 @@ group :development, :test do
   gem 'rspec-rails', '3.7.0'
 end
 
-group :development do
+group :test do
   gem 'selenium-webdriver', '3.6.0'
   gem 'capybara', '2.15.0'
   gem 'listen', '3.0.8'
+  gem 'factory_bot_rails', '4.8.2'
 end
 
 group :doc do

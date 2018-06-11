@@ -1,0 +1,32 @@
+
+An error occurred while loading ./signup with invalid information.
+Failure/Error: load_dependency(file) { result = super }
+
+LoadError:
+  cannot load such file -- /home/ec2-user/environment/sample_app_rs/signup with invalid information
+# /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:286:in `load'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:286:in `block in load'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:258:in `load_dependency'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:286:in `load'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1954:in `load_spec_file_handling_errors'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1496:in `block in load_spec_files'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1494:in `each'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1494:in `load_spec_files'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:100:in `setup'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:86:in `run'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /usr/local/rvm/gems/ruby-2.4.1/gems/rspec-core-3.7.1/exe/rspec:4:in `<top (required)>'
+# /usr/local/rvm/gems/ruby-2.4.1/bin/rspec:23:in `load'
+# /usr/local/rvm/gems/ruby-2.4.1/bin/rspec:23:in `<main>'
+# /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+# /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+
+
+Finished in 0.00035 seconds (files took 1.5 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
