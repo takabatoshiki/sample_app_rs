@@ -24,6 +24,13 @@ module SessionsHelper
     user == current_user
   end
   
+  def logged_in_user
+    unless logged_in?
+      store_location
+      redirect_to login_url, notice: "Please log in."
+    end
+  end
+  
   def log_out
     self.current_user = nil
     cookies.delete(:remember_token)
